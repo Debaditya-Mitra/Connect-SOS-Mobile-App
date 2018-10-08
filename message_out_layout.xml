@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtViewOutMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="6dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_alignParentRight="true"
+        android:text="Heyy"
+        android:background="@mipmap/bubble_img"/>
+    <ImageView
+        android:id="@+id/imgViewOutChat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/bubble_img"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:layout_margin="10dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.maps.MapView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/mapViewOut">
+        </com.google.android.gms.maps.MapView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
